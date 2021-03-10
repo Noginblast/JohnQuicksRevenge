@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
         rb.velocity = moveDirection * speed * 100 * Time.deltaTime;
     }
     void Update() {
-        if(rb.transform.position.y > 35 || rb.transform.position.x > 60 || rb.transform.position.x < -60)
+        if(rb.transform.position.y > 35 || rb.transform.position.x > 109 || rb.transform.position.x < -60)
         {
             Destroy(gameObject);
         }
