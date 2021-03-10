@@ -7,7 +7,9 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame ()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //changed this to load scene 1 because the other one wouldn't work with the end scene. But I left the code in case we want to come back to it.
+        SceneManager.LoadScene(1);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()
