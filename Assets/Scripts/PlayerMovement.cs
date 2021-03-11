@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    //can keep track of any amount of food it will be incremented in the OnTriggerEnter2d function- commented out for fututre use.
+    //public int cherrires = 0;
     public CharacterController2D controller;
     public Animator animator;
     Rigidbody2D rb;
@@ -59,6 +60,24 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
     }
+
+
+
+
+
+    /*Caleb added this function: This is responsible for the collectables of the game.
+      Basically if the tag = Collectable then we want to destroy it.*/
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Collectable")
+        {
+            Destroy(collision.gameObject);
+            /*we may want to add this later if we want to keep track of the food
+              we will want to uncomment this and the declaraction at the top to keep track of the amount of food*/
+            //cherries += 1;
+        }
+    }
+
 
     public void OnLanding()
     {
