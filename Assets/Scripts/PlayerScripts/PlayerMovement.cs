@@ -28,36 +28,38 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        if(Mathf.Abs(rb.velocity.x) > 0.1)
-        {
-            isMoving = true;
-        }
-        else
-        {
-            isMoving = false;
-        }
+        if(!PauseMenu.GameIsPaused){
+            if(Mathf.Abs(rb.velocity.x) > 0.1)
+            {
+                isMoving = true;
+            }
+            else
+            {
+                isMoving = false;
+            }
 
-        if(isMoving && !animator.GetBool("IsJumping"))
-        {
-            if(!audsrc.isPlaying)
-                audsrc.Play();
-        }
-        else
-        {
-            audsrc.Stop();
-        }
+            if(isMoving && !animator.GetBool("IsJumping"))
+            {
+                if(!audsrc.isPlaying)
+                    audsrc.Play();
+            }
+            else
+            {
+                audsrc.Stop();
+            }
 
-        animator.SetFloat("Speed", Mathf.Abs(horizMove));
+            animator.SetFloat("Speed", Mathf.Abs(horizMove));
 
-        if (Input.GetButtonDown("Jump")){
-            jump = true;
-            animator.SetBool("IsJumping", true);
-        }
+            if (Input.GetButtonDown("Jump")){
+                jump = true;
+                animator.SetBool("IsJumping", true);
+            }
 
-        if (Input.GetButtonDown("Crouch")){
-            crouch = true;
-        } else if (Input.GetButtonUp("Crouch")){
-            crouch = false;
+            if (Input.GetButtonDown("Crouch")){
+                crouch = true;
+            } else if (Input.GetButtonUp("Crouch")){
+                crouch = false;
+            }
         }
     }
 
