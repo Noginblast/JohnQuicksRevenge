@@ -320,7 +320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONTINUE
+  m_text: GO FIGHT!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -524,11 +524,11 @@ RectTransform:
   m_Children:
   - {fileID: 1699308778}
   m_Father: {fileID: 1391296700}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105.999756, y: -99.682976}
+  m_AnchoredPosition: {x: 105.999756, y: -79.955}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248733869
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2039955652}
         m_MethodName: DisplayNextSentence
         m_Mode: 1
         m_Arguments:
@@ -735,7 +735,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1391296700}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -894,12 +894,12 @@ RectTransform:
   m_Children:
   - {fileID: 1014452448}
   m_Father: {fileID: 1391296700}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -242, y: -76}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -240.9, y: -77.978}
+  m_SizeDelta: {x: 162.17279, y: 33.955}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087458988
 MonoBehaviour:
@@ -916,21 +916,48 @@ MonoBehaviour:
   dialogue:
     name: Continue
     sentences:
-    - "Wow did you just see those bullet? Maybe you didn't, to fire your gun click
-      on the left mouse button. Then click Continue.\t"
-    - Good, now that you know how to fire your gun you will be able to defend yourself.
-    - Lets get those legs moving now, move left by pressing A and right with D. When
-      your done click Continue.
-    - Awesome, your getting the hang of it. Now press S to crouch and the Space bar
-      to Jump. When your done click Continue.
-    - Awesome! Now you need to collect  food for your family so go find some , then
-      press Continue once you find it.
-    - To collect the food just run to it and it will be collected. When your done
-      keep going straight and you will find your tree. Press Continue when you get
-      there
-    - Oh no, you tree is being blocked by an enemy , use the gun to destroy him!
-      Press Continue when it is dead.
-    - Great, now run into your tree to be with your family and feed them.
+    - What is that noise?
+    - It must that farmer again....
+    - What is he up to today?
+    - (John Quicks goes to see what the comotion is)
+    - OH NOOOOOO!!!!
+    - He is chopping down trees.....
+    - 'He''s never done this before.... What am I going to do? '
+    - 'I have to protect my family. '
+    - If he comes for our tree that will mean certain doom for my wife and children.....
+    - I must put an end to it.... FOR MY FAMILY!!!!
+    - I will sneak into his house tonight while he is asleep and do what I must to
+      protect my family
+    - (Later that night while the child and wife were sleeping John walks to farmer
+      Rodeny's house )
+    - Now what will I use to kill him with? Maybe that fire stick or that knife or....
+      WHAT IS THAT?
+    - (John spots a dog , and not just any dog , a great dane)
+    - Gosh , he certainly seems bigger up close....
+    - (When John thinks this he then knocks a stick over which wakes the dog. He
+      runs from the dog which also wakes up the farmer)
+    - Oh no , what do I do now...
+    - (John sees a gun loaded with bullets and shoots the dog before the farmer comes
+      out)
+    - 'Farmer Rodeny: Oh no! Duke !! What happend?'
+    - (John sees the farmer in his sights and with one single thought....)
+    - FOR MY FAMILY!!!!!!!
+    - (He fires the gun)
+    - Now my family will for sure be safe...
+    - (Or so he thinks..................)
+    - (1 year passes since the shooting of the farmer, things are great, excpet for
+      food becoming short)
+    - 1
+    - YEAR
+    - LATER
+    - (John barely makes it to his house alive )
+    - (With new dangerous creatures lurking about John must once again save his family
+      from certain doom)
+    - I know what I must do.....
+    - (John grabs his gun and with a single thought jumps out the tree)
+    - FOR MY FAMILY!!!!!
+    - (Now it is up to you to help John's family survive.....)
+    - "(Their future is in your hands..... \nGOODLUCK...... YOU'LL NEED IT.....)"
 --- !u!114 &1087458989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,9 +1151,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1872543280}
-  - {fileID: 842037291}
   - {fileID: 248733868}
   - {fileID: 1087458987}
+  - {fileID: 842037291}
   - {fileID: 61267664}
   m_Father: {fileID: 0}
   m_RootOrder: 3
