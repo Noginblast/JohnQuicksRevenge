@@ -22,6 +22,37 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    /*Caleb added this function: This is responsible for the powerups of the game.
+     Basically if the tag = powerup then we want to destroy it and add 20 to the health.*/
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Powerup")
+        {
+            if (health == 100)
+            {
+                
+                Destroy(collision.gameObject);
+            }
+
+            else if (health == 90)
+            {
+                health = 100;
+            }
+            else if (health > 100)
+            {
+                Destroy(collision.gameObject);
+            }
+
+            else
+            {
+                health += 10;
+            }
+            Destroy(collision.gameObject);
+            
+        }
+    }
+
+
     // Update is called once per frame
     void Die(){
         GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
