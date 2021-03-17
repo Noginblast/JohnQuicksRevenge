@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
 
     void Die(){
         GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
-        ScoreScript.scoreValue += 10;
+       // ScoreScript.scoreValue += 10;
         //dead.DeathSound();
         Destroy(gameObject);
         Destroy(effect, 0.5f);
