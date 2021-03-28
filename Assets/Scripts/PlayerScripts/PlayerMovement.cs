@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     Rigidbody2D rb;
     AudioSource audsrc;
+    public int food = 0;
 
     public float runSpeed = 40f;
     float horizMove = 0f;
@@ -77,7 +78,12 @@ public class PlayerMovement : MonoBehaviour
             /*we may want to add this later if we want to keep track of the food
               we will want to uncomment this and the declaraction at the top to keep track of the amount of food*/
             //cherries += 1;
-            ScoreScript.scoreValue += 1;
+
+            food += 1;
+        
+            ScoreScript.scoreValue = food;
+            //  food += 1;
+            //ScoreScript.scoreValue = food;
         }
     }
 

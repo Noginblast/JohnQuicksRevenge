@@ -781,16 +781,14 @@ MonoBehaviour:
   dialogue:
     name: Continue
     sentences:
-    - What is that noise?
-    - It must that farmer again....
+    - What is that noise? It must that farmer again....
     - What is he up to today?
     - (John Quicks goes to see what the comotion is)
-    - OH NOOOOOO!!!!
-    - He is chopping down trees.....
-    - 'He''s never done this before.... What am I going to do? '
-    - 'I have to protect my family. '
-    - If he comes for our tree that will mean certain doom for my wife and children.....
-    - I must put an end to it.... FOR MY FAMILY!!!!
+    - OH NOOOOOO!!!! He is chopping down trees.....
+    - 'He''s never done this before.... What am I going to do? I have to protect
+      my family. '
+    - If he comes for our tree that will mean certain doom for my wife and children.
+      I must put an end to it.... FOR MY FAMILY!!!!
     - I will sneak into his house tonight while he is asleep and do what I must to
       protect my family
     - (Later that night while the child and wife were sleeping John walks to farmer
@@ -809,20 +807,19 @@ MonoBehaviour:
     - FOR MY FAMILY!!!!!!!
     - (He fires the gun)
     - Now my family will for sure be safe...
-    - (Or so he thinks..................)
-    - (1 year passes since the shooting of the farmer, things are great, excpet for
-      food becoming short)
-    - 1
-    - YEAR
-    - LATER
+    - (Or so he thinks. One year passes since the shooting of the farmer, things
+      are great, excpet for food becoming short)
+    - 1 YEAR LATER.......
     - (John barely makes it to his house alive )
     - (With new dangerous creatures lurking about John must once again save his family
       from certain doom)
     - I know what I must do.....
     - (John grabs his gun and with a single thought jumps out the tree)
     - FOR MY FAMILY!!!!!
-    - (Now it is up to you to help John's family survive.....)
-    - "(Their future is in your hands..... \nGOODLUCK...... YOU'LL NEED IT.....)"
+    - (Now it is up to you to help John's family survive. Their future is in your
+      hands. GOODLUCK,YOU'LL NEED IT.....)
+    - 
+    - 
 --- !u!114 &1087458989
 MonoBehaviour:
   m_ObjectHideFlags: 0
