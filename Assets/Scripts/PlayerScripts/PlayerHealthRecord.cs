@@ -16,6 +16,7 @@ public class PlayerHealthRecord : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         health = PlayerHealth.health;
         score.text = "HEALTH: " + Mathf.Max(health,0);
     }

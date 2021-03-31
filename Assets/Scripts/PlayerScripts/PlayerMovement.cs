@@ -28,6 +28,18 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //makes the player slower if health below 70
+        if (PlayerHealth.health == 70 || PlayerHealth.health == 60 || PlayerHealth.health == 50 || PlayerHealth.health == 40 || PlayerHealth.health == 30 || PlayerHealth.health == 20 || PlayerHealth.health == 10)
+        {
+            runSpeed = 20f;
+
+        }
+
+        else
+        {
+            runSpeed = 40f;
+        }
+
         horizMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         if(!PauseMenu.GameIsPaused){
             if(Mathf.Abs(rb.velocity.x) > 0.1)
