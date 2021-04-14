@@ -623,7 +623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 525, y: -165.23}
+  m_AnchoredPosition: {x: 186, y: -152.87}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &234733081
@@ -767,13 +767,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0.84313726}
+  m_Color: {r: 0.49205816, g: 0.8679245, b: 0.38892844, a: 0.84313726}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 584155d22c806b44f9272022e53a412f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f225a6f624312c04782736938485839b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -913,36 +913,18 @@ MonoBehaviour:
     name: Continue
     sentences:
     - 1 YEAR LATER.......
-    - (John barely makes it to his house alive )
-    - (With new dangerous creatures lurking about John must once again save his family
-      from certain doom)
-    - I know what I must do.....
-    - (John grabs his gun and with a single thought jumps out the tree)
-    - FOR MY FAMILY!!!!!
-    - (Now it is up to you to help John's family survive. Their future is in your
-      hands. GOODLUCK,YOU'LL NEED IT.....)
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - "(John barely makes it to his house alive, he begins to feel a presence slow
+      him down when he takes damage\t)"
+    - (It takes John a while to learn, but when he gets hurt too much he will be
+      slower)
+    - (This is thanks to Rodney, every time John's health drops too low he loses
+      his speed, from being possessed by Rodney, however, upon recovery of health
+      he gains it back)
+    - (John sees the farm  over run by animals and grabs his gun to once again go
+      and defend his family)
+    - (John leaps from the tree to begin his journey)
+    - (GOODLUCK YOU'LL NEED IT. Keep in mind if your health drops too low Rodney
+      will possess you and make you slower)
 --- !u!114 &1151153520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.4, y: -110.8}
+  m_AnchoredPosition: {x: 25, y: -47}
   m_SizeDelta: {x: 801.32385, y: 138.92532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1847654330
@@ -1458,8 +1440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: 84}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 520, y: -10}
+  m_SizeDelta: {x: 168.31409, y: 176.3511}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1847654332
 MonoBehaviour:
