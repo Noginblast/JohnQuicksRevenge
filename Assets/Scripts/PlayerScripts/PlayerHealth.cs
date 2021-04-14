@@ -38,15 +38,21 @@ public class PlayerHealth : MonoBehaviour
             {
                 health = 100;
             }
+            else if (health == 80)
+            {
+                health = 100;
+            }
+            else if (health <= 70)
+            {
+                health += 20;
+
+            }
             else if (health > 100)
             {
                 Destroy(collision.gameObject);
             }
 
-            else
-            {
-                health += 10;
-            }
+            
             Destroy(collision.gameObject);
             
         }
