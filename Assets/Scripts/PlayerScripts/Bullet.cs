@@ -16,6 +16,20 @@ public class Bullet : MonoBehaviour
         moveDirection.Normalize();
 
         rb.velocity = moveDirection * speed * 100 * Time.deltaTime;
+
+        var rbRotate = Mathf.Atan(moveDirection.y/moveDirection.x)*180/Mathf.PI;
+
+        if(moveDirection.x < 0){
+            rbRotate += 180;
+        }
+
+        if(GameObject.FindGameObjectWithTag("Player").transform.rotation.y < 0){
+            rb.SetRotation(rbRotate + 180);
+        }
+        else{
+            rb.SetRotation(rbRotate);
+        }
+        
     }
     void Update() {
         if(rb.transform.position.y > 35 || rb.transform.position.x > 109 || rb.transform.position.x < -60)
