@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6166910905133540456}
   - component: {fileID: 6166910905133540457}
   - component: {fileID: 6166910905133540462}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: cherry-1
   m_TagString: Collectable
   m_Icon: {fileID: 0}
