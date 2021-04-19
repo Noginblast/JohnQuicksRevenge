@@ -6,11 +6,21 @@ using UnityEngine.SceneManagement;
 public class Newscene : MonoBehaviour
 {
     [SerializeField] private string sceneName;
+    public int scoreRequirement;
+    public DialogManager manager;
+    public DialogTrigger Dtrigger;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(sceneName);
+            if(ScoreScript.scoreValue >= scoreRequirement)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
+            else
+            {
+                Dtrigger.TriggerDialogue();
+            }
         }
     }
 

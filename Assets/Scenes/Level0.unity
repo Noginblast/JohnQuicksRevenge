@@ -662,6 +662,7 @@ GameObject:
   - component: {fileID: 147103893}
   - component: {fileID: 147103895}
   - component: {fileID: 147103892}
+  - component: {fileID: 147103896}
   m_Layer: 0
   m_Name: tree
   m_TagString: Untagged
@@ -772,6 +773,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: CutScene1
+  scoreRequirement: 0
+  message:
+    name: Continue
+    sentences: []
+  manager: {fileID: 20759771}
+  Dtrigger: {fileID: 147103896}
+--- !u!114 &147103896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147103891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c23b1a62b364a43b41a8819dd200c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Continue
+    sentences:
+    - You need more food to finish the level!
 --- !u!1 &162265330
 GameObject:
   m_ObjectHideFlags: 0
@@ -11761,6 +11784,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+  scoreRequirement: 0
+  message:
+    name: 
+    sentences: []
+  manager: {fileID: 0}
+  Dtrigger: {fileID: 0}
 --- !u!1 &1402079699
 GameObject:
   m_ObjectHideFlags: 0

@@ -86,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.tag == "Collectable")
         {
+            collision.tag = "CollectedCollectable";
             Destroy(collision.gameObject);
             /*we may want to add this later if we want to keep track of the food
               we will want to uncomment this and the declaraction at the top to keep track of the amount of food*/
