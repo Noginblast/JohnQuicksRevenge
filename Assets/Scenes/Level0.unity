@@ -528,8 +528,8 @@ MonoBehaviour:
     - Awesome! Now you need to collect  food for your family so go find some , then
       press Continue once you find it.
     - To collect the food just run to it and it will be collected. Also why don't
-      you try running thorugh that star too. Then press Continue
-    - Wow I bet you feel so much better! That added 20 to your health! Now go return
+      you try running through that star too. Then press Continue
+    - Wow I bet you feel so much better! That added 10 to your health! Now go return
       that food to your tree and then press Continue when you see it
     - Oh no there is an enemy blocking you path. Destoy him then press Continue
     - Good, now run into your tree.
@@ -774,9 +774,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CutScene1
   scoreRequirement: 0
-  message:
-    name: Continue
-    sentences: []
   manager: {fileID: 20759771}
   Dtrigger: {fileID: 147103896}
 --- !u!114 &147103896
@@ -2900,7 +2897,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11785,9 +11782,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: 
   scoreRequirement: 0
-  message:
-    name: 
-    sentences: []
   manager: {fileID: 0}
   Dtrigger: {fileID: 0}
 --- !u!1 &1402079699
@@ -14037,6 +14031,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3699222158088481204, guid: 72683b65848f88c4db5984ac58c63b6d,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3699222158088481205, guid: 72683b65848f88c4db5984ac58c63b6d,
         type: 3}
       propertyPath: m_LocalPosition.x

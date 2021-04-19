@@ -178,9 +178,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: 
   scoreRequirement: 0
-  message:
-    name: 
-    sentences: []
   manager: {fileID: 0}
   Dtrigger: {fileID: 0}
 --- !u!114 &11860138
@@ -2379,7 +2376,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -11809,9 +11806,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Level2
   scoreRequirement: 5
-  message:
-    name: 
-    sentences: []
   manager: {fileID: 2095025666}
   Dtrigger: {fileID: 964658339}
 --- !u!212 &964658337
